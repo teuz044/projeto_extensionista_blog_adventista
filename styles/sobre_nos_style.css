@@ -1,0 +1,161 @@
+/* Reset de estilos para remover margens e preenchimentos padrão */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #fff;
+}
+
+ a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Herda a cor do texto do pai, que é branco no seu caso */
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer nav li {
+    margin-right: 20px;
+}
+
+.footer nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-info {
+    text-align: right;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+
+.header {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header .logo {
+    font-size: 24px;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.header nav li {
+    margin-right: 20px;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.about-us {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 36px;
+    color: #333;
+}
+
+.about-content p {
+    font-size: 18px;
+    color: #666;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer nav li {
+    margin-right: 20px;
+}
+
+.footer nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}

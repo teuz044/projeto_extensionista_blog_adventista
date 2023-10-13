@@ -1,0 +1,130 @@
+/* Restante do seu CSS existente */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #fff;
+}
+
+ a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Herda a cor do texto do pai, que é branco no seu caso */
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.donation-info {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.bank-details,
+.pix-details,
+contact-details,
+.instagram-link {
+    margin-top: 20px;
+}
+
+.bank-details p,
+.pix-details p,
+contact-details p,
+.instagram-link p {
+    margin: 5px 0;
+}
+
+.bank-details p strong,
+.pix-details p strong,
+contact-details p strong,
+.instagram-link p strong {
+    font-weight: bold;
+}
+
+.instagram-link a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer nav li {
+    margin-right: 20px;
+}
+
+.footer nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-info {
+    text-align: right;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+/* Restante do seu CSS existente */
+
+.whatsapp-button a {
+    display: inline-flex;
+    align-items: center;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.whatsapp-icon::before {
+    content: '\f232'; /* Unicode do ícone do WhatsApp (pode variar dependendo da fonte de ícones que você usa) */
+    font-family: FontAwesome; /* Dependendo da fonte de ícones que você usa, ajuste a família da fonte */
+    margin-right: 10px;
+}
