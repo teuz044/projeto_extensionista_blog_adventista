@@ -111,6 +111,15 @@ contact-details p strong,
 }
 
 /* Restante do seu CSS existente */
+.instagram-link a{
+    text-decoration: none;
+}
+
+.instagram-link a:hover{
+    color: #626262;
+    text-decoration: underline;
+    transition: all .2s ease;
+}
 
 .whatsapp-button a {
     display: inline-flex;
@@ -127,4 +136,17 @@ contact-details p strong,
     content: '\f232'; /* Unicode do ícone do WhatsApp (pode variar dependendo da fonte de ícones que você usa) */
     font-family: FontAwesome; /* Dependendo da fonte de ícones que você usa, ajuste a família da fonte */
     margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer-content{
+        flex-direction: column;
+    }
+    .contact-info p{
+        text-align: initial;
+    }
+
+    .contact-info p:nth-child(1){
+        text-align: center;
+    }
 }

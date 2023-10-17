@@ -113,6 +113,7 @@ nav a {
 .about-us {
     text-align: center;
     padding: 40px 0;
+    height: 430px;
 }
 
 .about-content {
@@ -158,4 +159,17 @@ nav a {
 
 .contact-info p {
     margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .footer-content{
+        flex-direction: column;
+    }
+    .contact-info p{
+        text-align: initial;
+    }
+
+    .contact-info p:nth-child(1){
+        text-align: center;
+    }
 }

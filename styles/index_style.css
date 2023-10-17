@@ -202,10 +202,36 @@ h1 {
     color: #fff;
 }
 
+.hover:hover{
+    color: #ddd;
+    transition: all .5s ease;
+}
+
 .contact-info {
     text-align: right;
 }
 
 .contact-info p {
     margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .footer-content{
+        flex-direction: column;
+    }
+    .contact-info p{
+        text-align: initial;
+    }
+
+    .contact-info p:nth-child(1){
+        text-align: center;
+    }
+
+    .quemSomos-content{
+        flex-direction: column;
+    }
+
+    .text{
+        text-align: center;
+    }
 }
