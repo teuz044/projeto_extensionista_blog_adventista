@@ -11,11 +11,16 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    height: 80px;
 }
 
 .logo {
     font-size: 24px;
     color: #fff;
+}
+
+.logo img{
+    width: 20%;
 }
 
 .logo a {

@@ -18,11 +18,16 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    height: 80px;
 }
 
 .logo {
     font-size: 24px;
     color: #fff;
+}
+
+.logo img{
+    width: 20%;
 }
 
  a {
@@ -113,7 +118,7 @@ nav a {
 .about-us {
     text-align: center;
     padding: 40px 0;
-    height: 430px;
+    height: auto;
 }
 
 .about-content {
@@ -129,6 +134,10 @@ nav a {
 .about-content p {
     font-size: 18px;
     color: #666;
+}
+
+.sections{
+    margin-top: 30px;
 }
 
 .footer {
