@@ -6,11 +6,11 @@
     <link rel="stylesheet" href="styles/index_style.css">
     <title>Luzeiros do Monte</title>
 </head>
-<body>
+<body onload="fetchData()">
     <header>
         <a href="index.html">
             <div class="logo">
-                <img src="/img/logo-luzeiros.png" alt="">
+                <img src="img/logo-luzeiros.png" alt="">
             </div>
         </a>
         <nav>
@@ -33,33 +33,17 @@
             </div>
         </div>
     </section>
-
+    <button id="read-button">Fetch All Data</button>
     <section class="gallery">
         <div class="gallery-content">
             <h2 class="section-title">Nossa Galeria de Fotos</h2>
-            <div class="photo-grid">
-                <div class="photo">
-                    <img src="img/galeria_1.PNG" alt="Foto 1">
-                </div>
-                <div class="photo">
-                    <img src="img/galeria_2.PNG" alt="Foto 2">
-                </div>
-                <div class="photo">
-                    <img src="img/galeria_3.PNG" alt="Foto 3">
-                </div>
-                <div class="photo">
-                    <img src="img/galeria_4.PNG" alt="Foto 3">
-                </div>
-                <div class="photo">
-                    <img src="img/galeria_5.PNG" alt="Foto 3">
-                </div>
-                <div class="photo">
-                    <img src="img/galeria_6.PNG" alt="Foto 3">
-                </div>
-                <!-- Adicione mais fotos conforme necessário -->
+
+            <div class="photo-grid" id="data-list">
+
             </div>
         </div>
     </section>
+
     <section class="donate">
         <div class="donate-content">
             <h2 class="section-title">Faça uma doação</h2>
@@ -90,5 +74,6 @@
             </div>
         </div>
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>

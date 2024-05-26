@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Example</title>
+</head>
+<body>
+    <h1>CRUD Example</h1>
+    <div>
+        <h2>Create</h2>
+        <form id="create-form">
+            <input type="text" id="titulo" placeholder="Title" required>
+            <input type="text" id="descricao" placeholder="Description" required>
+            <input type="text" id="url" placeholder="URL" required>
+            <button type="submit">Create</button>
+        </form>
+    </div>
+    <div>
+        <h2>Read</h2>
+        <button id="read-button">Fetch All Data</button>
+        <ul id="data-list"></ul>
+    </div>
+    <div>
+        <h2>Delete</h2>
+        <input type="number" id="delete-id" placeholder="ID to delete" required>
+        <button id="delete-button">Delete</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
