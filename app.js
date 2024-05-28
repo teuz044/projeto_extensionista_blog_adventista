@@ -1,5 +1,5 @@
 // URL base da API
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://node-desbravadores-api.onrender.com';
 
 // Função para obter todos os dados (GET)
 async function fetchData() {
